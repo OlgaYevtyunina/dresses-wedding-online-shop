@@ -19,7 +19,7 @@ return <Router>
     <Link to="/ourmission" className="link">Our Mission</Link>
 </nav>
     <Routes>
-    <Route path="/catalogue" element={<Catalogue/>}/>
+    <Route path="/" element={<Catalogue/>}/>
     <Route path="/ourbrand" element={<OurBrand/>}/>
     <Route path="/ourmission" element={<OurMission/>}/>
 </Routes>
